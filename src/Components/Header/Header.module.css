@@ -1,0 +1,14 @@
+.titleHeader{
+    padding: 0.5rem;
+    letter-spacing: 0.05rem;  
+}
+
+
+@media (min-width: 900px){
+
+    .titleHeader{
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    }
+}
+

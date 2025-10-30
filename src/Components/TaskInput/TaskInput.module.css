@@ -1,0 +1,53 @@
+
+.enterTask{
+    margin-bottom: 1rem;
+}
+
+.textInput{
+    inline-size: 20rem;
+    background-color: rgb(211, 211, 211);
+    padding: 1rem 0.5rem;
+    border: 1px solid;
+    border-radius: 1rem;
+    margin-right: 0.25rem;
+}
+
+
+.button{
+    border: none;
+    cursor: pointer;   
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 2rem;
+}
+
+.button:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+
+@media (min-width: 900px){
+
+    .textInput{
+     inline-size: 40rem;
+     padding: 1.5rem 1rem;
+    }
+
+    .button{
+    padding: 1.5rem 1rem;
+    font-size: 4rem;
+    padding: 0;
+    }
+    
+    .enterTask{
+        font-size: 2.5rem;
+    }
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

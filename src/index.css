@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+:root{
+
+/*Typography*/
+
+--bg-color: rgb(22, 22, 22);
+--text-color: rgb(245, 245, 245);
+
+}
+
+
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 10px;
+    min-height: 100vh;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 100vh;
+}
+
+
+.container footer {
+  margin-top: auto
+}

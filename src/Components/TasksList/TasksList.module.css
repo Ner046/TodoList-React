@@ -1,0 +1,55 @@
+.listContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.listHeader{
+  align-self: start;
+}
+
+.taskItem{
+    display: flex;
+    text-align: left;
+    word-break: break-word;
+}
+
+
+
+.taskItems{
+    display: grid;
+    gap: 1rem;
+}
+
+
+
+.button{
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+
+@media (min-width: 900px){
+
+    /* taskItem is <li> tag that is used to group item and button */
+        
+    .taskItem{
+        gap: 0.5rem;
+        display: flex;
+        font-size: 2rem;
+    }
+    .listHeader{
+        font-size: 2.5rem;
+    }
+}
+
+
+.button:hover{
+    filter: brightness(2);
+}
+
+
