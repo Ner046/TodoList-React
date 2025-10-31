@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header className={styles.titleHeader}>
 
-      <h1 className="titleHeader">TodoList</h1>
+      <h1 className="titleHeader">TodoLists</h1>
 
     </header>
   )
